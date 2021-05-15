@@ -1,4 +1,4 @@
-//var grade= 88
+//var grade= ;
 function numbertoLetter(grade){
    if (grade >= 95 &&  grade <= 100) {
       console.log('Your grade is an A')

@@ -1,0 +1,44 @@
+
+ .bgcolor{
+   background-color: #10828C;
+ }
+.color{
+  color:white;
+}
+
+.nav-right{
+  float:right;
+}
+
+.btn btn-primary my-2{
+  color:#10828C
+}
+
+.vl {
+   border-left: 6px solid #10828C;
+   height: 500px;
+ }
+
+ .col{
+    padding-bottom: 5px;
+ }
+
+ .container-top {
+   position: relative;
+   text-align: center;
+   color: white;
+ }
+ 
+ /* Bottom left text */
+ .over {
+   position: absolute;
+   bottom: 8px;
+   left: 16px;
+ }
+  .about.text{
+    text-align: left;
+  }
+ .section-heading{
+   padding: 15px;
+    color:#10828C;
+  }
