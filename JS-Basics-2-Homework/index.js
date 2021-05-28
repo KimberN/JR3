@@ -24,7 +24,6 @@ function numbertoLetter(grade){
    }
 console.log(numbertoLetter(88)) //returns Your grade is a B+
 
-
 //For bonus: think about how your function would run if the parameter passed in was not a
 //number, but a string. Look up how to add in test cases to make sure if the function is
 //called but the parameter is not a number it returns an error message instead.
