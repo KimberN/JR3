@@ -21,7 +21,7 @@ function ifNumInt(){
 }
 
 if(Object.keys(store) !== integer || Object.keys(store)== double){
-   return "incorrect valu has been entered"
+   return "incorrect value has been entered"
 }
 //3. if value entered does not = integer or double, print 'incorrect value has been entered';
 //else store new amount to a placeholder variable
