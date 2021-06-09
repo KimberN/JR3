@@ -18,28 +18,33 @@
       <div class="row justify-content-md-center">
       <h1>Temperature Converter</h1>
       <!-----------------INPUT 1---------------------------------->
-    <form class="">
-      <div class="temp1">
-        <input "type="number" id="input1" placeholder="Enter Any Temperature">
+    <form id="myForm">
+      <div class="form-group">
+        <input class="form-control"type="number" id="inputNum" onchange=""placeholder="Enter Any Temperature">
       </div>
       <!----------radio buttons----------------------------------------------------------->
-      
+    
+      <!--if radio id="f" run ftoc function-->
+      <div class="form-check">
         <label class="radio-inline">
-          <input id="f"type="radio" name="optradio">°F
+          <input type="radio"id="f"type="radio" name="optradio">°F
         </label>
         <label class="radio-inline">
-          <input id="c"type="radio" name="optradio">°C
+          <input type="radio"id="c"type="radio" name="optradio">°C
         </label>
-       
+      </div>
       
          <!---------------submit clear buttons------------------------------------------------------>
-      <div class="d-grid gap-2 d-md-block">
-        <button id="Submit"class="btn btn-primary" type="button">Submit</button>
-        <button id="clear" class="btn btn-primary" type="button">Clear</button>
+      <div class="form-check-inline">
+        <button id="Submit" onclick = "tempTOtemp()"class="btn btn-primary" type="button">Submit</button>
+        <button id="clear" class="btn btn-primary" type="button" onclick="clearFunction()" value="Reset form">Clear</button>
       </div>
+      button.addEventListener("click", function()){
+        alert("you clicked me")
+    }
    <!-----------------INPUT 2---------------------------------------------------->
-      <div class="redOutput">
-        <input class="form-control"type="number" id="input2" placeholder="Temperature Converted!!">
+      <div class="form-group">
+        <input class="form-control"type="string" id="outputStr" placeholder="Temperature Converted!!">
       </div>
     </form>
     </div>
