@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+</body>
+<script type="text/javascript">
+fetch('data.json')
+.then(function(response){
+    //raw data
+    //into json
+    return response.json();
+}
+)
+.then(function(data){
+    //json obj to work with
+    console.log(data);
+}
+)
+.catch(function(err){
+    //will be called if there is an error
+    console.log(err);
+})
+/**
+* We are going to start with AJAX by learning fetch.
+*
+* Using the basic fetch syntax:
+*
+fetch('some/url')
+* .then(function(response) {
+*     
+* }).catch(function(err) {
+* 
+* });
+*
+* Do the following tasks:
+* 1. Call the data.json data file using a GET request
+* 2. console.log the response, what do you see? Methods? Data? etc
+* 3. Change the url you are calling to an invalid one, ie 'no-data.json'
+* 4. console.log the error, what do you see?
+*
+**/
+
+
+
+</script>
+</html>
