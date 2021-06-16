@@ -2,10 +2,15 @@
 //radio choose f or c ()
 //button choose submit (if f is clicked run function that calculates c)
 //create function that runs submit if f and submits if c
-//create a 
+//calculate value of input
+function calcValue(){
+   var cOrFvalue = document.getElementById("inputNum").value;
+}
+
 
 function tempTOtemp(number){
    if(document.getElementById("f").checked){
+      //use
       return far
    }else if(document.getElementById("c").checked){
       return cel
